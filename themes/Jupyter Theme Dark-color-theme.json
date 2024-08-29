@@ -48,29 +48,22 @@
       "name": "f-Strings",
       "scope": [
         "meta.fstring.python",
-        "string.interpolated.python"
+        "string.interpolated.python",
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python"
       ],
       "settings": {
-        "foreground": "#7A3E9D"  // Purple for f-strings
-      }
-    },
-    {
-      "name": "f-String Prefix",
-      "scope": [
-        "storage.type.string.python"
-      ],
-      "settings": {
-        "foreground": "#7A3E9D"  // Purple for 'f' in f-strings
+        "foreground": "#7A3E9D"  // Purple for the entire f-string, including 'f' prefix
       }
     },
     {
       "name": "f-String Variables",
       "scope": [
-        "meta.fstring.python constant.character.format.placeholder.other.python",
-        "meta.fstring.python meta.embedded.python"
+        "constant.character.format.placeholder.other.python",
+        "variable.other.format.python"
       ],
       "settings": {
-        "foreground": "#dbd9d9"  // White for variables in f-strings
+        "foreground": "#dbd9d9"  // White for variables inside f-strings
       }
     },
     {
