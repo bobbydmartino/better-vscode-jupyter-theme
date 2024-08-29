@@ -47,13 +47,9 @@
     {
       "name": "f-Strings",
       "scope": [
-        "string.quoted.single",
-        "string.quoted.double",
         "meta.fstring.python",
         "string.interpolated.python",
         "string.quoted.single.python",
-        "meta.function-call.arguments.python",
-        "meta.function-call.python"
       ],
       "settings": {
         "foreground": "#7A3E9D"  // Purple for the entire f-string, including 'f' prefix
