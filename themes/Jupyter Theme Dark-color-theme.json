@@ -35,37 +35,28 @@
       }
     },
     {
-      "name": "Strings",
+      "name": "Regular Strings",
       "scope": [
-        "string.quoted.single",
-        "string.quoted.double"
+        "string.quoted.single.python",
+        "string.quoted.double.python"
       ],
       "settings": {
         "foreground": "#C44445"  // Red for regular strings
       }
     },
     {
-      "name": "Strings",
-      "scope": [
-        "string.quoted.single",
-        "string.quoted.double"
-      ],
-      "settings": {
-        "foreground": "#C44445"  // Red for regular strings
-      }
-    },
-    {
-      "name": "f-Strings",
+      "name": "F-Strings",
       "scope": [
         "meta.fstring.python",
-        "string.interpolated.python"
+        "source.python meta.fstring.python string.interpolated.python string.quoted.single.python",
+        "source.python meta.fstring.python string.interpolated.python string.quoted.double.python"
       ],
       "settings": {
-        "foreground": "#7A3E9D"  // Purple for entire f-string
+        "foreground": "#7A3E9D"  // Purple for f-strings
       }
     },
     {
-      "name": "f-String Prefix",
+      "name": "F-String Prefix",
       "scope": [
         "storage.type.string.python"
       ],
@@ -75,9 +66,11 @@
       }
     },
     {
-      "name": "Variables in f-Strings",
+      "name": "F-String Variables and Placeholders",
       "scope": [
-        "constant.character.format.placeholder.other.python"
+        "meta.fstring.python constant.character.format.placeholder.other.python",
+        "meta.fstring.python meta.embedded.python",
+        "meta.fstring.python variable.language.special.self.python"
       ],
       "settings": {
         "foreground": "#DBD9D9"  // White for variables in f-strings
