@@ -77,6 +77,15 @@
       }
     },
     {
+      "name": "Override for F-String Variables",
+      "scope": [
+        "meta.fstring.python meta.embedded.python"
+      ],
+      "settings": {
+        "foreground": "#DBD9D9"  // Enforce white color for all embedded content in f-strings
+      }
+    },
+    {
       "name": "Comments: Preprocessor",
       "scope": "comment.block.preprocessor",
       "settings": {
