@@ -35,30 +35,27 @@
       }
     },
     {
-      "name": "f-Strings",
-      "scope": ["meta.fstring", "string.interpolated"],
+      "name": "Strings",
+      "scope": [
+        "string.quoted.single",
+        "string.quoted.double"
+      ],
       "settings": {
-        "foreground": "#7A3E9D"  // Purple
+        "foreground": "#C44445"  // Red for regular strings
+      }
+    },
+    {
+      "name": "f-Strings",
+      "scope": ["meta.fstring"],
+      "settings": {
+        "foreground": "#7A3E9D"  // Purple for f-strings only
       }
     },
     {
       "name": "f-String Prefix",
       "scope": ["punctuation.definition.string", "meta.fstring.python"],
       "settings": {
-        "foreground": "#7A3E9D"  // Purple
-      }
-    },
-    {
-      "name": "Strings",
-      "scope": [
-        "string",
-        "string.quoted.single",
-        "string.quoted.double",
-        "string.quoted.single.python",
-        "string.quoted.double.python"
-      ],
-      "settings": {
-        "foreground": "#7A3E9D"  // Purple
+        "foreground": "#7A3E9D"  // Purple for 'f' in f-strings
       }
     },
     {
