@@ -49,6 +49,8 @@
       "scope": [
         "meta.fstring.python",
         "string.interpolated.python",
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python"
       ],
       "settings": {
         "foreground": "#7A3E9D"  // Purple for the entire f-string, including 'f' prefix
