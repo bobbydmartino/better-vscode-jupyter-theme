@@ -45,13 +45,23 @@
       }
     },
     {
+      "name": "Strings",
+      "scope": [
+        "string.quoted.single",
+        "string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#C44445"  // Red for regular strings
+      }
+    },
+    {
       "name": "f-Strings",
       "scope": [
         "meta.fstring.python",
         "string.interpolated.python"
       ],
       "settings": {
-        "foreground": "#7A3E9D"  // Purple for f-strings
+        "foreground": "#7A3E9D"  // Purple for entire f-string
       }
     },
     {
@@ -60,17 +70,17 @@
         "storage.type.string.python"
       ],
       "settings": {
-        "foreground": "#7A3E9D"  // Purple for 'f' in f-strings
+        "foreground": "#7A3E9D",  // Purple for 'f' in f-strings
+        "fontStyle": "bold"
       }
     },
     {
-      "name": "f-String Variables",
+      "name": "Variables in f-Strings",
       "scope": [
-        "meta.fstring.python constant.character.format.placeholder.other.python",
-        "meta.fstring.python meta.embedded.python"
+        "constant.character.format.placeholder.other.python"
       ],
       "settings": {
-        "foreground": "#dbd9d9"  // White for variables in f-strings
+        "foreground": "#DBD9D9"  // White for variables in f-strings
       }
     },
     {
