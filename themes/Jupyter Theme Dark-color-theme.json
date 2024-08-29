@@ -38,7 +38,27 @@
       "name": "f-Strings",
       "scope": ["meta.fstring", "string.interpolated"],
       "settings": {
-        "foreground": "#7A3E9D"
+        "foreground": "#7A3E9D"  // Purple
+      }
+    },
+    {
+      "name": "f-String Prefix",
+      "scope": ["punctuation.definition.string", "meta.fstring.python"],
+      "settings": {
+        "foreground": "#7A3E9D"  // Purple
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.single.python",
+        "string.quoted.double.python"
+      ],
+      "settings": {
+        "foreground": "#7A3E9D"  // Purple
       }
     },
     {
