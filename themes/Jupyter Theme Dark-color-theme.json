@@ -56,7 +56,17 @@
       }
     },
     {
-      "name": "F-String Variables and Placeholders",
+      "name": "F-String Prefix",
+      "scope": [
+        "storage.type.string.python"
+      ],
+      "settings": {
+        "foreground": "#7A3E9D",  // Purple for 'f' in f-strings
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "F-String Variables and Placeholders - Aggressive Override",
       "scope": [
         "meta.fstring.python constant.character.format.placeholder.other.python",
         "meta.fstring.python meta.embedded.python",
@@ -64,22 +74,12 @@
         "meta.fstring.python meta.embedded.python variable.other.python",
         "meta.fstring.python meta.function-call.arguments.python",
         "meta.fstring.python meta.function-call.python",
-        "meta.fstring.python meta.member.access.python"
+        "meta.fstring.python meta.member.access.python",
+        "source.python meta.fstring.python"
       ],
       "settings": {
-        "foreground": "#DBD9D9"  // White for variables in f-strings
-      }
-    },
-    {
-      "name": "Override for F-String Variables",
-      "scope": [
-        "meta.fstring.python meta.embedded.python",
-        "meta.fstring.python meta.function-call.arguments.python",
-        "meta.fstring.python meta.function-call.python",
-        "meta.fstring.python meta.member.access.python"
-      ],
-      "settings": {
-        "foreground": "#DBD9D9"  // Enforce white color for all embedded content in f-strings
+        "foreground": "#DBD9D9",  // White for variables in f-strings
+        "fontStyle": ""  // Reset any font styles
       }
     },
     {
