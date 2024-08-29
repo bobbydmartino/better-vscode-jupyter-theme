@@ -1,29 +1,29 @@
 {
-  "name": "Jupyter Theme",
+  "name": "Better Jupyter Theme",
   "type": "dark",
   "colors": {
-    "menu.background": "#1e202b",
-	"menubar.selectionBackground": "#1e202b",
+    "menu.background": "#000000",
+    "menubar.selectionBackground": "#000000",
 
-    "sideBar.background": "#1e202b",
+    "sideBar.background": "#000000",
     "sideBarSectionHeader.background": "#252631",
     "sideBar.border": "#18181d",
 
-    "editor.background": "#1e202b",
+    "editor.background": "#000000",
     "editor.foreground": "#dbd9d9",
 
-    "notebook.cellEditorBackground": "#23232e",
+    "notebook.cellEditorBackground": "#000000",
 
-	"statusBar.background": "#0d5641",
-	"statusBar.noFolderBackground": "#309825",
-	"statusBar.debuggingBackground": "#c24d27",
-	"statusBarItem.remoteBackground": "#063e3f",
+    "statusBar.background": "#0d5641",
+    "statusBar.noFolderBackground": "#309825",
+    "statusBar.debuggingBackground": "#c24d27",
+    "statusBarItem.remoteBackground": "#063e3f",
 
-	"editor.lineHighlightBorder": "#292b3b",
-	"editor.selectionBackground": "#4a4e72",
+    "editor.lineHighlightBorder": "#292b3b",
+    "editor.selectionBackground": "#4a4e72",
 
-	"activityBar.background": "#21222d",
-	"widget.shadow": "#21222d"
+    "activityBar.background": "#000000",
+    "widget.shadow": "#21222d"
   },
   "tokenColors": [
     {
@@ -32,6 +32,13 @@
       "settings": {
         "foreground": "#6a8b93",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "f-Strings",
+      "scope": ["meta.fstring", "string.interpolated"],
+      "settings": {
+        "foreground": "#7A3E9D"
       }
     },
     {
